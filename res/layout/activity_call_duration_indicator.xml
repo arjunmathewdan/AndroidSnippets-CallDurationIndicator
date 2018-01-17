@@ -1,0 +1,45 @@
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	>		
+	<TextView
+	    android:id="@+id/infotext"
+		android:text="\n\nNotifies with vibration after configured time from number Dial\nCan also configure the Snooze period\n\n"
+		android:gravity="center"
+	/>
+
+		<TextView
+			android:text="Duration(sec):"
+			android:width ="200dp"
+			android:gravity="center"
+		/>
+		<EditText
+			android:id="@+id/durtxt"
+			android:password="false"
+			android:width="200dp"
+			android:gravity="center"
+		/>
+
+		<TextView
+			android:text="\nSnooze(sec):"
+			android:width ="200dp"
+			android:gravity="center"
+		/>
+		<EditText
+			android:id="@+id/snztxt"
+			android:password="false"
+			android:width="200dp"
+			android:gravity="center"
+		/>
+
+	<TextView
+	    android:id="@+id/outtext"
+	    android:text="\n\n\n"
+		android:gravity="center"
+	   />
+	<Button
+			android:id="@+id/savebtn"
+			android:text="Save"
+			android:gravity="center" />
+</TableLayout>
